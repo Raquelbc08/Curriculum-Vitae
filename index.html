@@ -4,20 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="#"></script>
+
     <title>Curriculum Vitae</title>
 </head>
 <body>
+    <nav id="Inicio" class="navbar navbar-light bg-light px-3">
+        <a class="navbar-brand" href="#Inicio">Inicio</a>
+        <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#Datos Personales">Datos Personales</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Formacion Academica">Formacion Academica</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Experiencia laboral">Experiencia laboral</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#Otros Datos de Interes">Otros Datos de Interes</a>
+        </li>
+        </ul>
+    </nav>
     <center>
         <img id="cv" src="cv.jpg" alt="Currilum Vitae">
     </center>
-    <h2>Indice :</h2>
-    <ul>
-        <li><a href="#Datos Personales">Datos Personales</a></li>
-        <li><a href="#Formacion Academica">Formacion Academica</a></li>
-        <li><a href="#Experiencia laboral">Experiencia laboral</a></li>
-        <li><a href="#Otros Datos de Interes">Otros Datos de Interes</a></li>
-    </ul>
-    <h2 id="Datos Personales">Datos Personales :</h2>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <h2 id="Datos Personales">Datos Personales :</h2>
     <center>
         <img src="foto.png" alt="foto" width="180" height="200">
     </center>
@@ -32,7 +47,7 @@
         </p>
         <p>
             <dt>Direccion :
-            <dd>Leningrado 667 Urb. Santa Isabel
+            <dd>Leningrado 667 Urb. Santa Isabel2
         </p>
         <p>
             <dt>Telefono :
@@ -43,7 +58,7 @@
             <dd>raquelbricenok@gmail.com
         </p>
     </dl>
-    <a href="#cv">Ir a Inicio</a>
+    <a href="#Inicio" class="btn btn-primary">Ir a Inicio</a>
     <h2 id="Formacion Academica">Formacion Academica :</h2>
     <ul>
         <li>Tecnico en Computacion e Informatica</li>
@@ -53,7 +68,7 @@
         <li>Imstalacion de redes</li>
         ISP - PCenter Peru
     </ul>
-    <a href="#cv">Ir a Inicio</a>
+    <a href="#Inicio" class="btn btn-primary">Ir a Inicio</a>
     <h2 id="Experiencia laboral">Experiencia laboral :</h2>
     <ol>
         <li>Practicante de Mantenimiento de Computadoras</li>
@@ -63,7 +78,8 @@
         <li>Analsta de Sistemas</li>
         (2021 - 2022) Hortifrut Peru S.A.C.
     </ol>
-    <a href="#cv">Ir a Inicio</a>
+    <a href="#Inicio" class="btn btn-primary">Ir a Inicio</a>
+
     <h2 id="Otros Datos de Interes">Otros Datos de Interes :</h2>
     <p>
         Videojuegos multijugador
@@ -71,7 +87,7 @@
     <p>
         Cine de animacion (Disney)
     </p>
-    <a href="#cv">Ir a Inicio</a>
-
+    <a href="#Inicio" class="btn btn-primary">Ir a Inicio</a>
+    </div>
 </body>
 </html>
